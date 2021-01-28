@@ -1,18 +1,18 @@
 @tailwind components;
 
-.ct-container {
+article .ct-container {
   @apply container mx-auto bg-gray-50 p-10;
 }
 
-.ct-post-elements {
+article .ct-post-elements {
   @apply bg-white p-10;
 }
 
-.ct-success {
+article .ct-success {
   @apply relative mx-auto pl-14 pr-5 py-4 my-4 bg-green-100 text-green-900 rounded-md font-normal leading-normal;
 }
 
-.ct-success::before {
+article .ct-success::before {
   @apply absolute w-6 h-6 left-4 bg-green-400 text-white rounded-full;
 
   content: ' ';
@@ -24,11 +24,11 @@
   margin-top: -0.75rem;
 }
 
-.ct-warn {
+article .ct-warn {
   @apply relative mx-auto pl-14 pr-5 py-4 my-4 bg-yellow-100 text-yellow-900 rounded-md font-normal leading-normal;
 }
 
-.ct-warn::before {
+article .ct-warn::before {
   @apply absolute w-6 h-6 left-4 text-white;
 
   content: ' ';
@@ -40,11 +40,11 @@
   margin-top: -0.75rem;
 }
 
-.ct-error {
+article .ct-error {
   @apply relative mx-auto pl-14 pr-5 py-4 my-4 bg-red-100 text-red-900 rounded-md font-normal leading-normal;
 }
 
-.ct-error::before {
+article .ct-error::before {
   @apply absolute w-6 h-6 left-4 bg-red-300 text-white rounded-full;
 
   content: ' ';
@@ -56,11 +56,11 @@
   margin-top: -0.75rem;
 }
 
-.ct-link {
+article .ct-link {
   @apply relative bg-black hover:bg-gray-700 transition-colors ease-in-out text-white pl-5 pr-4 py-3 no-underline text-base font-semibold leading-normal shadow-lg;
 }
 
-.ct-link::after {
+article .ct-link::after {
   @apply pl-4;
 
   content: '→';
