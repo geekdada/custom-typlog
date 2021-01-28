@@ -55,7 +55,6 @@
   --tw-text-opacity: 1;
   color: rgba(6, 78, 59, var(--tw-text-opacity));
   width: 100%;
-  max-width: 800px;
 }
 
 .ct-success::before {
@@ -94,7 +93,6 @@
   --tw-text-opacity: 1;
   color: rgba(120, 53, 15, var(--tw-text-opacity));
   width: 100%;
-  max-width: 800px;
 }
 
 .ct-warn::before {
@@ -130,7 +128,6 @@
   --tw-text-opacity: 1;
   color: rgba(127, 29, 29, var(--tw-text-opacity));
   width: 100%;
-  max-width: 800px;
 }
 
 .ct-error::before {
