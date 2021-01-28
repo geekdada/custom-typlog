@@ -5,7 +5,7 @@
 }
 
 .ct-success {
-  @apply relative w-full mx-auto pl-14 pr-5 py-4 my-4 bg-green-100 text-green-900 rounded-md leading-normal;
+  @apply relative mx-auto pl-14 pr-5 py-4 my-4 bg-green-100 text-green-900 rounded-md leading-normal;
 }
 
 .ct-success::before {
@@ -21,7 +21,7 @@
 }
 
 .ct-warn {
-  @apply relative w-full mx-auto pl-14 pr-5 py-4 my-4 bg-yellow-100 text-yellow-900 rounded-md leading-normal;
+  @apply relative mx-auto pl-14 pr-5 py-4 my-4 bg-yellow-100 text-yellow-900 rounded-md leading-normal;
 }
 
 .ct-warn::before {
@@ -37,7 +37,7 @@
 }
 
 .ct-error {
-  @apply relative w-full mx-auto pl-14 pr-5 py-4 my-4 bg-red-100 text-red-900 rounded-md leading-normal;
+  @apply relative mx-auto pl-14 pr-5 py-4 my-4 bg-red-100 text-red-900 rounded-md leading-normal;
 }
 
 .ct-error::before {
