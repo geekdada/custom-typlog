@@ -57,7 +57,7 @@ article .ct-error::before {
 }
 
 article .ct-link {
-  @apply relative bg-black hover:bg-gray-700 transition-colors ease-in-out text-white pl-5 pr-4 py-3 no-underline text-base font-semibold leading-normal shadow-lg;
+  @apply relative inline-block bg-black hover:bg-gray-700 transition-colors ease-in-out text-white pl-5 pr-4 py-3 no-underline text-base font-semibold leading-normal shadow-lg;
 }
 
 article .ct-link::after {
