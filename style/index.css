@@ -1,0 +1,59 @@
+@tailwind components;
+
+.ct-container {
+  @apply container mx-auto bg-gray-50 py-5;
+}
+
+.ct-success {
+  @apply relative w-full mx-auto pl-14 pr-5 py-4 my-4 bg-green-100 text-green-900 rounded-md leading-normal;
+
+  max-width: 800px;
+}
+
+.ct-success::before {
+  @apply absolute w-6 h-6 left-4 bg-green-400 text-white rounded-full;
+
+  content: ' ';
+  top: 50%;
+  background-image: url('../image/check.svg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+  margin-top: -0.75rem;
+}
+
+.ct-warn {
+  @apply relative w-full mx-auto pl-14 pr-5 py-4 my-4 bg-yellow-100 text-yellow-900 rounded-md leading-normal;
+
+  max-width: 800px;
+}
+
+.ct-warn::before {
+  @apply absolute w-6 h-6 left-4 text-white;
+
+  content: ' ';
+  top: 50%;
+  background-image: url('../image/warn.svg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 1.5rem 1.5rem;
+  margin-top: -0.75rem;
+}
+
+.ct-error {
+  @apply relative w-full mx-auto pl-14 pr-5 py-4 my-4 bg-red-100 text-red-900 rounded-md leading-normal;
+
+  max-width: 800px;
+}
+
+.ct-error::before {
+  @apply absolute w-6 h-6 left-4 bg-red-300 text-white rounded-full;
+
+  content: ' ';
+  top: 50%;
+  background-image: url('../image/cross.svg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 1.25rem 1.25rem;
+  margin-top: -0.75rem;
+}
